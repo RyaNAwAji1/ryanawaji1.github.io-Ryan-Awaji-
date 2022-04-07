@@ -1,0 +1,117 @@
+/* glopel things */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(/background-image.png);
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+/*end glopel things */
+
+/* first section */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0 10px 20px;
+    padding: 20px 10px;
+}
+.text{
+    margin-left: 30px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.text h2{
+    color: #fff;
+    padding: 17px;
+    font-size: 25px;
+}
+.text h4{
+    color: rgba(251, 251, 251, 0.577);
+    font-size: 22px;
+}
+/* end first section */
+/* second section */
+table{
+    width: 100%;
+    border: 2px solid rgb(188, 232, 188);
+    text-align: center;
+    height: 40px;
+    margin: 30px 0;
+}
+tr{
+    border: 2px solid rgb(188, 232, 188);
+}
+th{
+    color: rgba(251, 251, 251, 0.577);
+    font-size: 20px;
+}
+/* end second section */
+/* thired section  */
+.wrapper{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-transform: capitalize;
+    border: 2px solid rgb(188, 232, 188);
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    
+}
+.wrapper .experience{
+    width: 500px;
+    padding: 20px;
+
+}
+.wrapper .skills{
+    width: 500px;
+    padding: 20px;
+}
+/* end thired section  */
+/* fourth section  */
+
+.other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    flex-direction: column;
+}
+/* end fourth section  */
+/* other page contect me  */
+
+.contact{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #fff;
+}
+/* end other page contact me  */
+/* last item a button */
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 22px 9px;
+    font-size: 25px;
+}
+.button a:hover{
+    background: rgba(41, 34, 34, 0.388);
+    border-radius: 20px;
+}
+
+/* end last item a button */
+
+
